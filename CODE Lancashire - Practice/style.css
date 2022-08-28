@@ -1,0 +1,56 @@
+h1{
+    color: red;
+    font-family: sans-serif;
+    font-size: large;
+    padding: 10px;
+    text-align: center;
+}
+h2{
+    color: rgb(87,99,127);
+    text-align: center;
+    font-style: italic;
+    font-family: Calibri;
+    margin-top: 0px;
+    }
+h3{
+    color: gold;
+    font-family: calibri;
+}
+.box1{
+    background-color: black;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    width:750px;
+}
+.box2{
+    background-color: rgb(248, 14, 178);
+    width: 750px;
+}
+body{
+    max-width: 800px;
+    image: image(images\matrix.png); 
+}
+a:hover {
+    color: darkorchid;
+}
+a:active{
+    color: red; 
+}
+a:visited{
+    color: hotpink;
+}
+.Experiences{
+    width: 100%;
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: calibri;
+    font-stretch:extra-expanded;
+}
+.marriott {
+    color: red;
+    font-family: calibri;
+    background-image: background-image(images\Marriott_logo_PNG1.png);
+    }
