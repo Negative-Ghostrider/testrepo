@@ -1,39 +1,41 @@
 h1{
-    color: red;
+    color: rgb(126, 122, 122);
+    background-image: linear-gradient(red,yellow);
     font-family: sans-serif;
     font-size: large;
     padding: 10px;
     text-align: center;
 }
 h2{
-    color: rgb(87,99,127);
+    color:rgb(87,99,127);
     text-align: center;
     font-style: italic;
     font-family: Calibri;
     margin-top: 0px;
-    }
+    background-image: url(images/matrix.png); 
+}
 h3{
     color: gold;
     font-family: calibri;
 }
 .box1{
-    background-color: black;
+    border-color: black;
     width: auto;
     height: auto;
     box-sizing: border-box;
-    width:750px;
+    width:auto;
 }
 .box2{
     background-color: rgb(248, 14, 178);
-    width: 750px;
+    width: auto;
+    font-family: calibri;
 }
 body{
     max-width: 800px;
-    image: image(images\matrix.png); 
 }
-a:hover {
+a:hover{
     color: darkorchid;
-}
+    }
 a:active{
     color: red; 
 }
@@ -41,16 +43,35 @@ a:visited{
     color: hotpink;
 }
 .Experiences{
-    width: 100%;
-    background-color: aquamarine;
+    width: 800px;
+    background-color:aquamarine;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-family: calibri;
     font-stretch:extra-expanded;
 }
-.marriott {
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+.marriott{
     color: red;
     font-family: calibri;
-    background-image: background-image(images\Marriott_logo_PNG1.png);
-    }
+    text-align: left;
+}
+.ct{
+    color: blue;
+    font-family: calibri;
+}
+.cf{
+    color: green;
+    font-family: calibri; 
+}
+.education, .skills, .recentprojects{
+    padding-left: 40px;
+    font-family: calibri;
+}
